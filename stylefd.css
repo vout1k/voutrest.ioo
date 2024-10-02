@@ -1,0 +1,404 @@
+/*Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+
+/*!Общие стили*/
+
+body {
+      font-family: "Roboto Serif", serif;
+      
+      color: white;
+      background-color: rgba(0, 0, 0, 0.938);
+
+      margin: 0;
+      
+}
+
+html {
+      box-sizing: border-box;
+}
+
+.container {
+      max-width: 1478px;
+      margin: 0 auto;
+      padding: 0 15px;
+}
+
+a {
+      color: white;
+      text-decoration: none;
+     
+}
+
+ul {
+      list-style: none; 
+      padding: 0;
+      margin: 0;
+}
+
+p {
+      margin: 0;
+}
+
+.btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      font-size: 16px;
+      font-weight: 500;
+      
+      width: 156px;
+      height: 48px;
+      
+      background-color: rgb(209, 111, 30);
+      border-radius: 6px;
+
+      transition: opacity 0.4s;
+}
+
+.btn:hover {
+      opacity: 0.8;
+
+}
+
+.btn1 {
+      margin-right: 300px;
+}
+
+.btn_small {
+      width: 135px;
+      height: 35px;
+      font-size: 12px;
+      border-radius: 6px;
+      transition: opacity 0.4s;
+
+      
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+      font-weight: 500;
+      margin: 0;
+}
+
+img {
+      max-width: 100%;
+}
+
+/**Шапка*/
+
+.header {
+      padding: 25px 0px;
+}
+
+.header .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+}
+
+
+.header_list {
+      display: flex;
+      gap: 25px;
+}
+
+.header_nav a {
+      
+      font-size: 18px;
+      opacity: 0.7;
+      transition: opacity 0.4s;
+}
+
+.header_nav a:hover {
+      opacity: 0.9;
+}
+
+.header_nav a.active {
+      opacity: 1;
+}
+
+/*?Контент */
+
+
+.main {
+
+}
+
+.welcome {
+      margin-top: -150px;
+      padding: 300px 0;
+      
+      width: 1954px;
+      background-image: url(img/bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+
+}
+
+
+.welcome_subtitle {
+      margin-bottom: 8px;
+      font-size: 14px;
+      
+}
+
+.welcome_title {
+      font-size: 58px;
+      
+
+}
+
+.welcome_desc {
+      margin: 40px 0;
+      font-size: 18px;
+      opacity: 0.8;
+}
+
+
+
+.welcome_txt {
+      width: 555px;
+      margin-right: 134px;
+
+}
+
+/** Карточки еды */
+
+
+
+.food_list {
+      padding: 100px 0;
+      
+
+}
+
+.food_list_wrapper {
+      padding: 27px 20px;
+      
+      
+}
+
+.food_list .container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      gap: 5px;
+}
+
+.container {
+
+}
+
+.food_list_card {
+      width: 355px;
+      
+
+      overflow: hidden;
+      text-align: center;
+      
+      background: rgba(44, 44, 44, 0.329);
+      border-radius: 9px;
+
+      
+    
+
+}
+
+.food_list_img {
+      width: 355px;
+      height: 235px;
+      
+     
+      
+}
+
+.food_list_card:hover {
+      opacity: 0.7;
+      
+     
+     
+}
+
+
+
+
+.food_title {
+      font-size: 20px;
+      margin-bottom: 10px;
+
+}
+
+.food_desc {
+      font-size: 14px;
+      opacity: 0.7;
+      
+}
+
+/*!Order */
+
+
+.order {
+      background: rgba(44, 44, 44, 0.329);
+      padding: 60px 0;
+
+}
+
+
+.order_img {
+      
+
+}
+
+.order_text {
+      margin-left: 60px;
+
+}
+
+.order_title {
+      font-size: 44px;
+      margin-bottom: 18px;
+
+}
+
+.order_desc {
+      margin-bottom: 15px;
+      font-size: 16px;
+      opacity: 0.7;
+
+}
+
+.order_price {
+      color: rgb(211, 80, 28);
+      font-size: 20px;
+      margin-left: 3px;
+
+}
+
+.order_price_all {
+      color: rgb(211, 80, 28);
+      text-decoration: line-through;
+      opacity: 0.5;
+
+}
+
+.order .btn {
+      margin-top: 12px;
+
+}
+
+.order .container {
+      display: flex;
+      align-items: center;
+}
+
+.container {
+}
+
+.product {
+      padding: 150px 0;
+      background-image: url(img/icons/menuicon.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0.9;
+}
+
+.product_card {
+      box-sizing: border-box;  
+      width: 555px;
+      height: 299px;
+      transition: opacity;
+      
+
+     
+      
+      padding: 60px 240px 60px 25px;
+}
+
+.product_card:hover {
+      opacity: 0.9;
+      color: rgb(167, 167, 167);
+}
+
+
+      
+
+
+
+
+.product_stew {
+      background-image: url(img/icons/iconbl1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+     
+    
+}
+.product_title {
+      font-size: 25px;
+      margin-bottom: 20px;
+
+}
+
+.product_desc {
+      margin-bottom: 10px;
+      font-size: 12px;
+      opacity: 0.7;
+
+}
+
+.product_price {
+      color: rgb(211, 80, 28);
+
+}
+
+.product_price_all {
+      color: rgb(211, 80, 28);
+      text-decoration: line-through;
+      opacity: 0.5;
+
+}
+
+
+
+.product .btn {
+      margin-top: 10px;
+}
+
+.product_faun {
+      background-image: url(img/icons/iconbl2.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+
+}
+
+.product_aegar {
+      background-image: url(img/icons/iconbl3.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+
+}
+
+.product_empanada {
+      background-image: url(img/icons/iconbl4.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+
+}
+
+.product .container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 25px;
+      justify-content: center;
+}
+
+
+
+
+
